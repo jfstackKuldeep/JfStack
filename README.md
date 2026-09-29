@@ -20,7 +20,7 @@
 
 ## 10 Essentials 
 1. Backend - **JAVA**, Python, PHP
-2.Backend frameworks- **NodeJS**, ExpressJS, Django, **SpringBoot**   
+2. Backend frameworks- **NodeJS**, ExpressJS, Django, **SpringBoot**   
 3. Frontend - **HTML**, **CSS**, **JS** 
 4. Frontend frameworks - Angular, **React**, Bootstrap
 5. Version Control System - AWS Code Commit, **Github**, Gitlab, **Git**
