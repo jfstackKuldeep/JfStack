@@ -24,8 +24,8 @@
 3. Frontend - **HTML**, **CSS**, **JS** 
 4. Frontend frameworks - Angular, **React**, Bootstrap
 5. Version Control System - AWS Code Commit, **Github**, Gitlab, **Git**
-6. Databases - **MySql**, SQL, PostgreSql, MongoDB, MS Excel, Google Sheets
-7. Server Handling - DOcker, Kubernetes
+6. Databases - **MySql**, SQL, PostgreSql, MongoDB, MS Excel, Notion, Google Sheets
+7. Server Handling - Docker, Kubernetes
 8. DSA
 9. Project Problen Solving
 10. Communication Skills + Data Analysis (MS Excel)
