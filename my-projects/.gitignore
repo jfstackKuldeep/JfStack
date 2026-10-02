@@ -1,0 +1,4 @@
+
+# Java Maven Build
+target/
+*.class
