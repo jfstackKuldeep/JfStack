@@ -1,0 +1,9 @@
+{
+  "query": {
+    "folder": "/data/data/com.termux/files/home"
+  },
+  "update": {
+    "checked": 1790913036821,
+    "version": "4.140.0"
+  }
+}

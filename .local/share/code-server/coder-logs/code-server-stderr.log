@@ -1,0 +1,255 @@
+[16:04:08] Error: Unable to retrieve mac address (unexpected format)
+    at qN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:33910)
+    at Iz (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34234)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34153
+    at async Promise.all (index 2)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+[16:04:08] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:25:11)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:372:15)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:244:9)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:26)
+    at async KN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34538)
+    at async Promise.all (index 4)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/data/'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async Q8 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97659)
+    at async u0 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97588)
+    at async Object.Wv (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97453)
+    at async r.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:72:20265) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/data/'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async Q8 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97659)
+    at async u0 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97588)
+    at async Object.Wv (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97453)
+    at async r.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:72:20265) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async Q8 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97659)
+    at async u0 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97588)
+    at async Object.Wv (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97453)
+    at async r.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:72:20265) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async Q8 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97659)
+    at async u0 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97588)
+    at async Object.Wv (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97453)
+    at async r.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:72:20265) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async Q8 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97659)
+    at async u0 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97588)
+    at async Object.Wv (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97453)
+    at async r.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:72:20265) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async Q8 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97659)
+    at async u0 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97588)
+    at async Object.Wv (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97453)
+    at async r.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:72:20265) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/data/'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async Q8 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97659)
+    at async u0 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97588)
+    at async Object.Wv (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97453)
+    at async r.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:72:20265) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/data/'
+}
+[node.js fs] readdir with filetypes failed with error:  Error: EACCES: permission denied, scandir '/'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async Q8 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97659)
+    at async u0 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97588)
+    at async Object.Wv (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:28:97453)
+    at async r.readdir (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:72:20265) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/'
+}
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[17:04:14] Error: Unable to retrieve mac address (unexpected format)
+    at qN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:33910)
+    at Iz (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34234)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34153
+    at async Promise.all (index 2)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+[17:04:14] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:25:11)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:372:15)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:244:9)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:26)
+    at async KN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34538)
+    at async Promise.all (index 4)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[17:42:30] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[11:58:14] Error: Unable to retrieve mac address (unexpected format)
+    at qN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:33910)
+    at Iz (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34234)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34153
+    at async Promise.all (index 2)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+[11:58:14] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:25:11)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:372:15)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:244:9)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:26)
+    at async KN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34538)
+    at async Promise.all (index 4)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+[09:19:57] Error: Unable to retrieve mac address (unexpected format)
+    at qN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:33910)
+    at Iz (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34234)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34153
+    at async Promise.all (index 2)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+[09:19:57] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:25:11)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:372:15)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:244:9)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:26)
+    at async KN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34538)
+    at async Promise.all (index 4)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+(node:14070) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[09:57:12] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[10:33:03] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[10:52:09] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20) {
+  errno: -104,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+[11:04:40] Error: Unable to retrieve mac address (unexpected format)
+    at qN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:33910)
+    at Iz (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34234)
+    at async file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34153
+    at async Promise.all (index 2)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+[11:04:40] Error: Unsupported platform
+    at Object.<anonymous> (/data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/@vscode/deviceid/dist/index.js:25:11)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:2002:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:372:15)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:244:9)
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:26)
+    at async KN (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:83:34538)
+    at async Promise.all (index 4)
+    at async JB (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:238:403)
+    at async r9 (file:///data/data/com.termux/files/usr/lib/code-server/lib/vscode/out/server-main.js:239:1451)
+[11:04:41] [127.0.0.1][8801f47d][ManagementConnection] Unknown reconnection token (never seen).
+[11:04:41] [127.0.0.1][9dac2b82][ExtensionHostConnection] Unknown reconnection token (never seen).
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /data/data/com.termux/files/usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+(node:31064) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)

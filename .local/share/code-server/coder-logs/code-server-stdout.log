@@ -1,0 +1,333 @@
+[2026-09-28T10:32:53.777Z] info  code-server 4.139.1 53c2f3253bcf32886706fc023e794bbeb253c90f
+[2026-09-28T10:32:53.783Z] info  Using user-data-dir /data/data/com.termux/files/home/.local/share/code-server
+[2026-09-28T10:32:53.855Z] info  Using config file /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-09-28T10:32:53.857Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2026-09-28T10:32:53.857Z] info    - Authentication is enabled
+[2026-09-28T10:32:53.857Z] info      - Using password from /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-09-28T10:32:53.858Z] info    - Not serving HTTPS
+[2026-09-28T10:32:53.858Z] info  Session server listening on /data/data/com.termux/files/home/.local/share/code-server/code-server-ipc.sock
+[16:04:08] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[16:04:08] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /data/data/com.termux/files/usr/tmp/vscode-ipc-03ee0730-2e39-4942-9e8c-688e16d90c5a.sock)
+[16:04:08] Extension host agent started.
+[16:04:08] Started initializing default profile extensions in extensions installation folder. file:///data/data/com.termux/files/home/.local/share/code-server/extensions
+[16:04:09] Completed initializing default profile extensions in extensions installation folder. file:///data/data/com.termux/files/home/.local/share/code-server/extensions
+[16:07:04] [127.0.0.1][d3eac258][ManagementConnection] New connection established.
+[16:07:06] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[16:07:10] [127.0.0.1][fba8a748][ExtensionHostConnection] New connection established.
+[16:07:10] [127.0.0.1][fba8a748][ExtensionHostConnection] Starting extension host process...
+[16:07:10] [127.0.0.1][fba8a748][ExtensionHostConnection] <21931> Launched Extension Host Process.
+[16:07:13] [127.0.0.1][fba8a748][ExtensionHostConnection] <21931> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[IPC Library: Agent Host] Agent host server listening on /data/data/com.termux/files/usr/tmp/vscode-ipc-03ee0730-2e39-4942-9e8c-688e16d90c5a.sock
+[16:07:13] ServerAgentHostManager: agent host started
+[16:07:13] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-03ee0730-2e39-4942-9e8c-688e16d90c5a.sock
+[16:07:24] [127.0.0.1][fba8a748][ExtensionHostConnection] <21931><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[16:13:30] [127.0.0.1][d3eac258][ManagementConnection] The client has reconnected.
+[16:13:31] [127.0.0.1][fba8a748][ExtensionHostConnection] The client has reconnected.
+[16:16:10] [127.0.0.1][d3eac258][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:16:11] [127.0.0.1][fba8a748][ExtensionHostConnection] <21931> Extension Host Process exited with code: 0, signal: null.
+[16:16:22] [127.0.0.1][83920dfc][ManagementConnection] New connection established.
+[16:16:24] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[16:16:25] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-03ee0730-2e39-4942-9e8c-688e16d90c5a.sock
+[16:16:27] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] New connection established.
+[16:16:27] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] Starting extension host process...
+[16:16:27] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] <24953> Launched Extension Host Process.
+[16:16:30] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] <24953> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[16:16:37] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] <24953><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[16:17:55] [127.0.0.1][83920dfc][ManagementConnection] The client has reconnected.
+[16:17:56] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] The client has reconnected.
+[16:22:51] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] The client has reconnected.
+[16:22:51] [127.0.0.1][83920dfc][ManagementConnection] The client has reconnected.
+[16:44:53] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] The client has reconnected.
+[16:44:53] [127.0.0.1][83920dfc][ManagementConnection] The client has reconnected.
+[16:56:43] [127.0.0.1][83920dfc][ManagementConnection] The client has reconnected.
+[16:56:43] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] The client has reconnected.
+[17:05:16] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] The client has reconnected.
+[17:05:16] [127.0.0.1][83920dfc][ManagementConnection] The client has reconnected.
+[17:09:03] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] The client has reconnected.
+[17:09:03] [127.0.0.1][83920dfc][ManagementConnection] The client has reconnected.
+[17:15:07] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] The client has reconnected.
+[17:15:07] [127.0.0.1][83920dfc][ManagementConnection] The client has reconnected.
+[17:55:30] [127.0.0.1][5fc5d3c8][ExtensionHostConnection] The client has reconnected.
+[17:55:30] [127.0.0.1][83920dfc][ManagementConnection] The client has reconnected.
+[2026-09-29T11:33:28.427Z] info  code-server 4.139.1 53c2f3253bcf32886706fc023e794bbeb253c90f
+[2026-09-29T11:33:28.451Z] info  Using user-data-dir /data/data/com.termux/files/home/.local/share/code-server
+[2026-09-29T11:33:28.526Z] info  Using config file /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-09-29T11:33:28.526Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2026-09-29T11:33:28.527Z] info    - Authentication is enabled
+[2026-09-29T11:33:28.527Z] info      - Using password from /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-09-29T11:33:28.527Z] info    - Not serving HTTPS
+[2026-09-29T11:33:28.527Z] info  Session server listening on /data/data/com.termux/files/home/.local/share/code-server/code-server-ipc.sock
+[17:04:14] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[17:04:14] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /data/data/com.termux/files/usr/tmp/vscode-ipc-1a946bc8-9df6-4c99-9441-8f32c7303675.sock)
+[17:04:14] Extension host agent started.
+[17:04:45] [127.0.0.1][f483ee89][ManagementConnection] New connection established.
+[17:04:47] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[17:04:50] [127.0.0.1][c6eeef2d][ExtensionHostConnection] New connection established.
+[17:04:50] [127.0.0.1][c6eeef2d][ExtensionHostConnection] Starting extension host process...
+[17:04:50] [127.0.0.1][c6eeef2d][ExtensionHostConnection] <12552> Launched Extension Host Process.
+[17:04:53] [127.0.0.1][c6eeef2d][ExtensionHostConnection] <12552> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[IPC Library: Agent Host] Agent host server listening on /data/data/com.termux/files/usr/tmp/vscode-ipc-1a946bc8-9df6-4c99-9441-8f32c7303675.sock
+[17:04:53] ServerAgentHostManager: agent host started
+[17:04:53] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-1a946bc8-9df6-4c99-9441-8f32c7303675.sock
+[17:05:01] [127.0.0.1][c6eeef2d][ExtensionHostConnection] <12552><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[17:07:12] [127.0.0.1][f483ee89][ManagementConnection] The client has reconnected.
+[17:07:12] [127.0.0.1][c6eeef2d][ExtensionHostConnection] The client has reconnected.
+[17:10:27] [127.0.0.1][c6eeef2d][ExtensionHostConnection] The client has reconnected.
+[17:10:27] [127.0.0.1][f483ee89][ManagementConnection] The client has reconnected.
+[17:15:57] [127.0.0.1][f483ee89][ManagementConnection] The client has reconnected.
+[17:15:58] [127.0.0.1][c6eeef2d][ExtensionHostConnection] The client has reconnected.
+[17:17:39] [127.0.0.1][f483ee89][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:17:41] [127.0.0.1][c6eeef2d][ExtensionHostConnection] <12552> Extension Host Process exited with code: 0, signal: null.
+[17:17:44] [127.0.0.1][6e892396][ManagementConnection] New connection established.
+[17:17:46] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[17:17:46] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-1a946bc8-9df6-4c99-9441-8f32c7303675.sock
+[17:17:48] [127.0.0.1][998eea6f][ExtensionHostConnection] New connection established.
+[17:17:48] [127.0.0.1][998eea6f][ExtensionHostConnection] Starting extension host process...
+[17:17:48] [127.0.0.1][998eea6f][ExtensionHostConnection] <15317> Launched Extension Host Process.
+[17:17:51] [127.0.0.1][998eea6f][ExtensionHostConnection] <15317> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[17:18:00] [127.0.0.1][998eea6f][ExtensionHostConnection] <15317><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[17:27:41] [127.0.0.1][f30cfa45][ManagementConnection] New connection established.
+[17:27:48] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[17:27:48] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-1a946bc8-9df6-4c99-9441-8f32c7303675.sock
+[17:27:51] [127.0.0.1][a323a537][ExtensionHostConnection] New connection established.
+[17:27:51] [127.0.0.1][a323a537][ExtensionHostConnection] Starting extension host process...
+[17:27:51] [127.0.0.1][a323a537][ExtensionHostConnection] <21381> Launched Extension Host Process.
+[17:27:54] [127.0.0.1][a323a537][ExtensionHostConnection] <21381> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[17:27:59] [127.0.0.1][6e892396][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[17:28:06] [127.0.0.1][a323a537][ExtensionHostConnection] <21381><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[17:32:41] [127.0.0.1][998eea6f][ExtensionHostConnection] <15317> Extension Host Process exited with code: 0, signal: null.
+[17:32:55] [127.0.0.1][6e892396][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[17:32:55] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[17:32:56] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[17:37:56] [127.0.0.1][6e892396][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[17:39:27] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[17:39:28] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[17:40:59] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[17:40:59] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[17:42:30] [127.0.0.1][f30cfa45][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[17:42:31] [127.0.0.1][f30cfa45][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[17:42:31] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[17:42:32] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[17:55:12] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[17:55:12] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[18:02:41] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[18:02:41] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[18:04:15] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[18:04:15] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[18:08:56] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[18:08:57] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[18:27:16] [127.0.0.1][a323a537][ExtensionHostConnection] The client has reconnected.
+[18:27:16] [127.0.0.1][f30cfa45][ManagementConnection] The client has reconnected.
+[18:33:16] [127.0.0.1][f30cfa45][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[18:33:17] [127.0.0.1][a323a537][ExtensionHostConnection] <21381> Extension Host Process exited with code: 0, signal: null.
+[18:33:21] [127.0.0.1][217ab059][ManagementConnection] New connection established.
+[18:33:23] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[18:33:23] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-1a946bc8-9df6-4c99-9441-8f32c7303675.sock
+[18:33:26] [127.0.0.1][94cf2833][ExtensionHostConnection] New connection established.
+[18:33:26] [127.0.0.1][94cf2833][ExtensionHostConnection] Starting extension host process...
+[18:33:26] [127.0.0.1][94cf2833][ExtensionHostConnection] <30858> Launched Extension Host Process.
+[18:33:31] [127.0.0.1][94cf2833][ExtensionHostConnection] <30858> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[18:33:47] [127.0.0.1][94cf2833][ExtensionHostConnection] <30858><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[18:36:45] [127.0.0.1][217ab059][ManagementConnection] The client has reconnected.
+[18:36:45] [127.0.0.1][94cf2833][ExtensionHostConnection] The client has reconnected.
+[18:42:39] [127.0.0.1][94cf2833][ExtensionHostConnection] The client has reconnected.
+[18:42:39] [127.0.0.1][217ab059][ManagementConnection] The client has reconnected.
+[2026-09-30T06:28:01.793Z] info  code-server 4.139.1 53c2f3253bcf32886706fc023e794bbeb253c90f
+[2026-09-30T06:28:01.819Z] info  Using user-data-dir /data/data/com.termux/files/home/.local/share/code-server
+[2026-09-30T06:28:01.893Z] info  Using config file /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-09-30T06:28:01.894Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2026-09-30T06:28:01.894Z] info    - Authentication is enabled
+[2026-09-30T06:28:01.894Z] info      - Using password from /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-09-30T06:28:01.894Z] info    - Not serving HTTPS
+[2026-09-30T06:28:01.894Z] info  Session server listening on /data/data/com.termux/files/home/.local/share/code-server/code-server-ipc.sock
+[11:58:14] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[11:58:14] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /data/data/com.termux/files/usr/tmp/vscode-ipc-e4240f8c-d838-4164-b917-785944c3b24f.sock)
+[11:58:14] Extension host agent started.
+[11:58:45] [127.0.0.1][0ed2339c][ManagementConnection] New connection established.
+[11:58:48] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[11:58:50] [127.0.0.1][9225fa70][ExtensionHostConnection] New connection established.
+[11:58:50] [127.0.0.1][9225fa70][ExtensionHostConnection] Starting extension host process...
+[11:58:51] [127.0.0.1][9225fa70][ExtensionHostConnection] <14491> Launched Extension Host Process.
+[11:58:54] [127.0.0.1][9225fa70][ExtensionHostConnection] <14491> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[IPC Library: Agent Host] Agent host server listening on /data/data/com.termux/files/usr/tmp/vscode-ipc-e4240f8c-d838-4164-b917-785944c3b24f.sock
+[11:58:55] ServerAgentHostManager: agent host started
+[11:58:55] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-e4240f8c-d838-4164-b917-785944c3b24f.sock
+[11:59:09] [127.0.0.1][9225fa70][ExtensionHostConnection] <14491><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[12:05:34] [127.0.0.1][0ed2339c][ManagementConnection] The client has reconnected.
+[2026-10-02T03:49:25.177Z] info  code-server 4.139.1 53c2f3253bcf32886706fc023e794bbeb253c90f
+[2026-10-02T03:49:25.200Z] info  Using user-data-dir /data/data/com.termux/files/home/.local/share/code-server
+[2026-10-02T03:49:25.269Z] info  Using config file /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-10-02T03:49:25.270Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2026-10-02T03:49:25.270Z] info    - Authentication is enabled
+[2026-10-02T03:49:25.271Z] info      - Using password from /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-10-02T03:49:25.271Z] info    - Not serving HTTPS
+[2026-10-02T03:49:25.271Z] info  Session server listening on /data/data/com.termux/files/home/.local/share/code-server/code-server-ipc.sock
+[09:19:57] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[09:19:57] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /data/data/com.termux/files/usr/tmp/vscode-ipc-0ce5897a-23c8-40c5-a057-f575f1347137.sock)
+[09:19:57] Extension host agent started.
+[09:20:35] [127.0.0.1][8801f47d][ManagementConnection] New connection established.
+[09:20:37] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[09:20:39] [127.0.0.1][9dac2b82][ExtensionHostConnection] New connection established.
+[09:20:39] [127.0.0.1][9dac2b82][ExtensionHostConnection] Starting extension host process...
+[09:20:40] [127.0.0.1][9dac2b82][ExtensionHostConnection] <15305> Launched Extension Host Process.
+[09:20:44] [127.0.0.1][9dac2b82][ExtensionHostConnection] <15305> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[IPC Library: Agent Host] Agent host server listening on /data/data/com.termux/files/usr/tmp/vscode-ipc-0ce5897a-23c8-40c5-a057-f575f1347137.sock
+[09:20:45] ServerAgentHostManager: agent host started
+[09:20:45] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-0ce5897a-23c8-40c5-a057-f575f1347137.sock
+[09:21:00] [127.0.0.1][9dac2b82][ExtensionHostConnection] <15305><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[09:57:12] [127.0.0.1][8801f47d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[09:57:13] [127.0.0.1][8801f47d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[09:57:13] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[09:57:13] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[09:58:14] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[09:58:14] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[09:58:48] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[09:58:48] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[09:59:19] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[09:59:19] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:00:25] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:00:26] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:02:36] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:02:37] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:04:56] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:04:56] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:07:04] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:07:05] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:09:11] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:09:11] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:10:17] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:10:17] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:12:37] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:12:38] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:15:23] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:15:24] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:17:17] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:17:17] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:33:03] [127.0.0.1][8801f47d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:33:04] [127.0.0.1][8801f47d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[10:33:04] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:33:05] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:34:24] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:34:25] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:37:52] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:37:52] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:52:09] [127.0.0.1][8801f47d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:52:10] [127.0.0.1][8801f47d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[10:52:10] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:52:10] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:53:38] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[10:53:38] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:59:12] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[10:59:13] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[11:01:14] [127.0.0.1][9dac2b82][ExtensionHostConnection] The client has reconnected.
+[11:01:14] [127.0.0.1][8801f47d][ManagementConnection] The client has reconnected.
+[2026-10-02T05:34:33.966Z] info  code-server 4.139.1 53c2f3253bcf32886706fc023e794bbeb253c90f
+[2026-10-02T05:34:33.988Z] info  Using user-data-dir /data/data/com.termux/files/home/.local/share/code-server
+[2026-10-02T05:34:34.057Z] info  Using config file /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-10-02T05:34:34.058Z] info  HTTP server listening on http://127.0.0.1:8080/
+[2026-10-02T05:34:34.058Z] info    - Authentication is enabled
+[2026-10-02T05:34:34.058Z] info      - Using password from /data/data/com.termux/files/home/.config/code-server/config.yaml
+[2026-10-02T05:34:34.058Z] info    - Not serving HTTPS
+[2026-10-02T05:34:34.059Z] info  Session server listening on /data/data/com.termux/files/home/.local/share/code-server/code-server-ipc.sock
+[11:04:40] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[11:04:41] [AgentHostChannel] Registered lazy IPC channel 'agentHostProxy' (upstream: /data/data/com.termux/files/usr/tmp/vscode-ipc-a25de286-b4f4-4544-aad2-11bfd4af471d.sock)
+[11:04:41] Extension host agent started.
+[11:04:49] [127.0.0.1][8607a89f][ManagementConnection] New connection established.
+[11:04:51] [AgentHostChannel] Renderer ctx=[object Object] requested connect to upstream
+[11:04:53] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] New connection established.
+[11:04:53] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] Starting extension host process...
+[11:04:53] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] <31962> Launched Extension Host Process.
+[11:04:57] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] <31962> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[IPC Library: Agent Host] Agent host server listening on /data/data/com.termux/files/usr/tmp/vscode-ipc-a25de286-b4f4-4544-aad2-11bfd4af471d.sock
+[11:04:57] ServerAgentHostManager: agent host started
+[11:04:57] [AgentHostChannel] Opening upstream to /data/data/com.termux/files/usr/tmp/vscode-ipc-a25de286-b4f4-4544-aad2-11bfd4af471d.sock
+[11:05:13] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] <31962><stderr> Cannot open directory /data/data/com.termux/files/usr/etc/tls/certs to load OpenSSL certificates.
+
+[11:06:22] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:06:22] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:07:56] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:07:56] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:12:20] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:12:21] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:16:04] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:16:04] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:16:59] Getting Manifest... qwtel.sqlite-viewer
+[11:17:02] Installing extension: qwtel.sqlite-viewer {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isBuiltin: false,
+  isApplicationScoped: false,
+  profileLocation: Ca {
+    scheme: 'file',
+    authority: '',
+    path: '/data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.139.1', date: '2026-09-25T03:40:57Z' }
+}
+[11:17:08] Extracted extension to file:///data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal: qwtel.sqlite-viewer
+[11:17:08] Renamed to /data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal
+[11:17:08] Extension installed successfully: qwtel.sqlite-viewer file:///data/data/com.termux/files/home/.local/share/code-server/extensions/extensions.json
+[11:18:43] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] <31962><stderr> Ignoring inability to install 'opfs' sqlite3_vfs: TypeError: Cannot read properties of undefined (reading 'href')
+    at R.initOptions (/data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:15:183244)
+    at S (/data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:16:11190)
+    at /data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:16:12171
+    at /data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:15:68697
+
+[11:18:43] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] <31962><stderr> Ignoring inability to install the opfs-wl sqlite3_vfs: TypeError: Cannot read properties of undefined (reading 'href')
+    at R.initOptions (/data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:15:183244)
+    at R (/data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:16:25956)
+    at /data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:16:26721
+    at /data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:15:68697
+    at async Za.fromBuffer (/data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:16:43241)
+    at async Al.importDb (/data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:19:130888)
+    at async MessagePort.t (/data/data/com.termux/files/home/.local/share/code-server/extensions/qwtel.sqlite-viewer-26.9.1-universal/out/worker.js:14:5996)
+
+[11:23:58] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:23:59] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.

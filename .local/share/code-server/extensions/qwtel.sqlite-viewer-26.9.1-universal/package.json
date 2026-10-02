@@ -1,0 +1,303 @@
+{
+	"icon": "documentation/icon.png",
+	"name": "sqlite-viewer",
+	"displayName": "SQLite Viewer",
+	"description": "SQLite Viewer for VS Code",
+	"version": "26.9.1",
+	"publisher": "qwtel",
+	"private": true,
+	"license": "LICENSE.md",
+	"homepage": "https://vscode.sqliteviewer.app",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qwtel/sqlite-viewer-vscode"
+	},
+	"engines": {
+		"vscode": "^1.83.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./out/extension.js",
+	"browser": "./out/extension-browser.js",
+	"extensionKind": [
+		"workspace",
+		"ui"
+	],
+	"l10n": "./l10n",
+	"contributes": {
+		"languages": [
+			{
+				"id": "sql",
+				"extensions": [
+					".sqlite",
+					".sqlite3",
+					".db",
+					".db3",
+					".sdb",
+					".s3db",
+					".gpkg"
+				]
+			}
+		],
+		"customEditors": [
+			{
+				"viewType": "sqlite-viewer.view",
+				"displayName": "%sqlite-viewer.customEditor.view.displayName%",
+				"selector": [
+					{
+						"filenamePattern": "*.sqlite"
+					},
+					{
+						"filenamePattern": "*.sqlite3"
+					},
+					{
+						"filenamePattern": "*.db"
+					},
+					{
+						"filenamePattern": "*.db3"
+					},
+					{
+						"filenamePattern": "*.sdb"
+					},
+					{
+						"filenamePattern": "*.s3db"
+					}
+				]
+			},
+			{
+				"viewType": "sqlite-viewer.option",
+				"displayName": "%sqlite-viewer.customEditor.option.displayName%",
+				"selector": [
+					{
+						"filenamePattern": "*"
+					}
+				],
+				"priority": "option"
+			},
+			{
+				"viewType": "sqlite-viewer.readonly",
+				"displayName": "%sqlite-viewer.customEditor.readonly.displayName%",
+				"selector": [
+					{
+						"filenamePattern": "*"
+					}
+				],
+				"priority": "option"
+			}
+		],
+		"configuration": {
+			"title": "SQLite Viewer",
+			"properties": {
+				"sqliteViewer.maxFileSize": {
+					"type": "number",
+					"minimum": 0,
+					"maximum": 4000,
+					"exclusiveMinimum": false,
+					"default": 200,
+					"markdownDescription": "%sqlite-viewer.config.maxFileSize.markdownDescription%",
+					"order": 9
+				},
+				"sqliteViewer.instantCommit": {
+					"type": "string",
+					"enum": [
+						"never",
+						"remote-only",
+						"always"
+					],
+					"enumDescriptions": [
+						"%sqlite-viewer.config.instantCommit.never%",
+						"%sqlite-viewer.config.instantCommit.remoteOnly%",
+						"%sqlite-viewer.config.instantCommit.always%"
+					],
+					"default": "remote-only",
+					"markdownDescription": "%sqlite-viewer.config.instantCommit.markdownDescription%",
+					"order": 1
+				},
+				"sqliteViewer.doubleClickBehavior": {
+					"type": "string",
+					"enum": [
+						"modal",
+						"vscode"
+					],
+					"enumDescriptions": [
+						"%sqlite-viewer.config.doubleClickBehavior.modal%",
+						"%sqlite-viewer.config.doubleClickBehavior.vscode%"
+					],
+					"default": "modal",
+					"markdownDescription": "%sqlite-viewer.config.doubleClickBehavior.markdownDescription%",
+					"order": 2
+				},
+				"sqliteViewer.checkConstraintPresets": {
+					"type": "object",
+					"description": "%sqlite-viewer.config.checkConstraintPresets.description%",
+					"additionalProperties": {
+						"type": "string"
+					},
+					"default": {
+						"Valid datetime": "datetime(\"{column}\") IS NOT NULL",
+						"Valid date": "date(\"{column}\") IS NOT NULL",
+						"Valid JSON": "json_valid(\"{column}\")",
+						"Valid JSONB": "json_valid(\"{column}\", 0x04)",
+						"Positive number": "\"{column}\" > 0",
+						"Max length (255)": "length(\"{column}\") <= 255",
+						"Email (simple)": "\"{column}\" LIKE '%@%.%'",
+						"Enum/In list": "\"{column}\" IN ('value1', 'value2')"
+					},
+					"order": 10
+				},
+				"sqliteViewer.foreignKeyClausePresets": {
+					"type": "array",
+					"description": "%sqlite-viewer.config.foreignKeyClausePresets.description%",
+					"items": {
+						"type": "string"
+					},
+					"default": [
+						"ON DELETE CASCADE",
+						"ON DELETE SET NULL",
+						"ON DELETE CASCADE ON UPDATE CASCADE",
+						"ON DELETE SET NULL ON UPDATE CASCADE",
+						"ON DELETE RESTRICT",
+						"ON UPDATE CASCADE",
+						"ON UPDATE SET NULL"
+					],
+					"order": 11
+				},
+				"sqliteViewer.defaultValueExpressionPresets": {
+					"type": "object",
+					"description": "%sqlite-viewer.config.defaultValueExpressionPresets.description%",
+					"additionalProperties": {
+						"type": "string"
+					},
+					"default": {
+						"Current timestamp": "CURRENT_TIMESTAMP",
+						"Current date": "CURRENT_DATE",
+						"Unix timestamp": "strftime('%s', 'now')",
+						"UUID (random)": "lower(hex(randomblob(4)) || '-' || hex(randomblob(2)) || '-' || '4' || substr(hex(randomblob(2)), 2) || '-' || substr('89ab', 1 + (abs(random()) % 4), 1) || substr(hex(randomblob(2)), 2) || '-' || hex(randomblob(6)))",
+						"Random positive integer": "abs(random())",
+						"Random BLOB (16 bytes)": "randomblob(16)",
+						"Empty JSONB object": "jsonb('{}')"
+					},
+					"order": 12
+				},
+				"sqliteViewer.markdownPreviewStyles": {
+					"type": "object",
+					"description": "%sqlite-viewer.config.markdownPreviewStyles.description%",
+					"additionalProperties": {
+						"type": "string"
+					},
+					"default": {
+						"p": "margin:0.6em 0",
+						"h1,h2,h3,h4,h5,h6": "margin:0.9em 0 0.45em;line-height:1.25",
+						"h1": "font-size:1.25em",
+						"h2": "font-size:1.1em",
+						"h3": "font-size:1em",
+						"h4,h5,h6": "font-size:0.95em",
+						"ul,ol": "padding-left:1.5em;margin:0.6em 0",
+						"li": "margin:0.25em 0",
+						"blockquote": "margin:0.75em 0;padding:0.25em 0 0.25em 0.75em;opacity:0.9",
+						"hr": "border:0;margin:1em 0",
+						"table": "border-collapse:collapse;display:block;overflow:auto;scrollbar-width:thin",
+						"thead th,tbody th,tbody td": "padding:0.25em 0.5em;word-break:normal;overflow-wrap:normal;white-space:normal",
+						"code": "padding:0.1em 0.25em;border-radius:3px",
+						"pre": "overflow:auto;margin:0.6em 0;padding:0.6em;border-radius:4px;scrollbar-width:thin",
+						"pre code": "padding:0;background:none",
+						"img": "max-width:100%;height:auto"
+					},
+					"order": 13
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "sqlite-viewer.addFileNestingPatterns",
+				"title": "%sqlite-viewer.commands.addFileNestingPatterns.title%",
+				"category": "SQLite Viewer"
+			},
+			{
+				"command": "sqlite-viewer.enterLicenseKey",
+				"title": "%sqlite-viewer.commands.enterLicenseKey.title%",
+				"category": "SQLite Viewer"
+			},
+			{
+				"command": "sqlite-viewer.removeLicenseKey",
+				"title": "%sqlite-viewer.commands.removeLicenseKey.title%",
+				"category": "SQLite Viewer"
+			},
+			{
+				"command": "sqlite-viewer.enterAccessToken",
+				"title": "%sqlite-viewer.commands.enterAccessToken.title%",
+				"category": "SQLite Viewer"
+			},
+			{
+				"command": "sqlite-viewer.exportTable",
+				"title": "%sqlite-viewer.commands.exportTable.title%",
+				"category": "SQLite Viewer"
+			}
+		]
+	},
+	"scripts": {
+		"clean": "rm -rf out && rm -rf sqlite-viewer-core/vscode/build",
+		"vscode:prepublish": "npm run $([ -z \"$VSCODE_EXT_SKIP_BUILD\" ] && echo build || echo compile:bin)",
+		"compile:ext": "npm run compile:ext:js",
+		"compile:ext:js": "bun run scripts/esbuild.ts",
+		"compile:app": "cd sqlite-viewer-core && npm run build-vscode",
+		"compile:tjs": "cd sqlite-viewer-core && npm run build-tjs",
+		"compile:bin": "npm run compile:tjs && bun run scripts/bin.ts",
+		"compile": "$([ -n \"$DEV\" ] && npm run build:zig:bin || true) && npm run clean && npm run compile:bin && npm run compile:ext && npm run compile:app",
+		"build:zig:bin": "cd zig-build-txiki && DEVELOPER_DIR=/nonexistent ZIG_LIB_DIR=../node_modules/@zigc/lib zig build --summary all",
+		"build:zig:matrix": "cd zig-build-txiki && DEVELOPER_DIR=/nonexistent ZIG_LIB_DIR=../node_modules/@zigc/lib zig build --summary all -Dno-wasm -Dno-ffi -Dno-network -Dno-subprocess -Dno-ipc -Dno-sqlite-extensions -Doptimize=ReleaseSmall -Dmatrix",
+		"build:zig": "npm run build:zig:bin && npm run build:zig:matrix",
+		"build": "npm run build:zig && npm run compile",
+		"install:core": "cd sqlite-viewer-core && bun install --frozen-lockfile",
+		"postinstall": "npm run install:core && npm run build:zig && bun run scripts/copy-file-type-supported.ts",
+		"package": "bun run scripts/pack.ts",
+		"package-all": "bun run scripts/ci.ts",
+		"version": "bun run scripts/changelog.ts && git add CHANGELOG.md",
+		"postversion": "VER=$(jq -r '.version' package.json) && if [[ ! $VER =~ - ]]; then cd sqlite-viewer-core && git tag -a \"vscode/v$VER\" -m ''; else git tag -d \"v$VER\"; fi",
+		"publish-all": "bun run scripts/ci.ts --kind publish",
+		"pre-publish-all": "bun run scripts/ci.ts --kind publish --pre-release",
+		"prepack": "sed -i '' s~https://sqliteviewer\\.app~https://sqliteviewer.app?ref=vscode~g *.md",
+		"postpack": "sed -i '' s~https://sqliteviewer\\.app?ref=vscode~https://sqliteviewer.app~g *.md",
+		"codium:publish-all": "bun run scripts/ci.ts --tool ovsx --kind publish",
+		"l10n": "npm run l10n-export && npm run l10n-reorder",
+		"l10n-export": "npx @vscode/l10n-dev export -o l10n src sqlite-viewer-core/src sqlite-viewer-core/pro",
+		"l10n-reorder": "bun run scripts/reorder-l10n.ts"
+	},
+	"devDependencies": {
+		"@types/vscode": "=1.83.1",
+		"@zigc/cli": "0.16.0",
+		"bun-types": "^1.4.0",
+		"esbuild": "^0.28.2",
+		"esbuild-plugin-alias": "^0.2.1",
+		"esbuild-plugin-polyfill-node": "^0.3.0",
+		"ovsx": "^0.10.12",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@scure/base": "^2.3.0",
+		"@std/encoding": "npm:@jsr/std__encoding",
+		"@vscode/codicons": "^0.0.45",
+		"codicons": "npm:@vscode/codicons@^0.0.45",
+		"@vscode/extension-telemetry": "^1.5.2",
+		"@vscode/vsce": "^3.9.2",
+		"@vscode/vscode-languagedetection": "^1.0.23",
+		"@worker-tools/typed-event-target": "^1.0.0",
+		"@workers/typed-event-target": "npm:@jsr/workers__typed-event-target@^1.0.0",
+		"@workers/v8-value-serializer": "npm:@jsr/workers__v8-value-serializer@^0.5.9",
+		"file-type": "=19.6.0",
+		"jose": "=5.10.0",
+		"json-merge-patch": "^1.0.2",
+		"json5": "^2.2.3",
+		"sql-formatter": "^15.8.2",
+		"whatwg-stream-to-async-iter": "^0.6.2"
+	},
+	"overrides": {
+		"js-yaml": "4.1.1"
+	},
+	"__metadata": {
+		"installedTimestamp": 1790920028838,
+		"targetPlatform": "universal",
+		"size": 11188161
+	}
+}
