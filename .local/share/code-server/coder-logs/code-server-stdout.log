@@ -331,3 +331,29 @@
 
 [11:23:58] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
 [11:23:59] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:26:16] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:26:16] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:45:03] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:45:03] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:47:13] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:47:14] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:53:37] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:53:37] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:57:12] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[11:57:13] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:59:03] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[11:59:04] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[12:20:05] [127.0.0.1][8607a89f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[12:20:06] [127.0.0.1][8607a89f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[12:20:06] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[12:20:07] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[12:24:17] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[12:24:18] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[12:24:50] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[12:24:51] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[12:47:59] [127.0.0.1][8607a89f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[12:48:00] [127.0.0.1][8607a89f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[12:48:00] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+[12:48:00] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[12:50:31] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+[12:50:31] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.

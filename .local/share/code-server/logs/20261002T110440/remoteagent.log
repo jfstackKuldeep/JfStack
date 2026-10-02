@@ -70,3 +70,33 @@
 
 2026-10-02 11:23:58.913 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
 2026-10-02 11:23:59.386 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 11:26:16.460 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 11:26:16.767 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 11:45:03.435 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 11:45:03.801 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 11:47:13.972 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 11:47:14.538 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 11:53:37.290 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 11:53:37.649 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 11:57:12.891 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 11:57:13.602 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 11:59:03.671 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 11:59:04.142 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 12:20:05.527 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-10-02 12:20:05.604 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-02 12:20:06.335 [info] [127.0.0.1][8607a89f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-10-02 12:20:06.344 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 12:20:07.513 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 12:24:17.814 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 12:24:18.265 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 12:24:50.685 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 12:24:51.070 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 12:47:59.300 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+2026-10-02 12:47:59.329 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-10-02 12:48:00.271 [info] [127.0.0.1][8607a89f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-10-02 12:48:00.278 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
+2026-10-02 12:48:00.638 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 12:50:31.006 [info] [127.0.0.1][8607a89f][ManagementConnection] The client has reconnected.
+2026-10-02 12:50:31.363 [info] [127.0.0.1][bcc8f5f5][ExtensionHostConnection] The client has reconnected.
